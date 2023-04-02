@@ -24,12 +24,7 @@ const Navbar = () => {
 
 
             <ul className={`md:flex absolute md:static pl-8 py-2 bg-purple-400 duration-500 ${open ? 'top-6' : '-top-48'}`}>
-                {/* {
-                    routes.map(route => <Link>
-                        key={route.id}
-                        route={route}
-                    </Link>)
-                } */}
+
                 {
                     routes.map(route => <Link
                         key={route.id}
